@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Главная</title>
+    <link id="themeCSS" rel="stylesheet" href="dark_style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Kode+Mono:wght@400..700&display=swap" rel="stylesheet">
+    <script src="block-scripts.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="JQuery.js"></script>
+    <script src="test.js"></script>
+    <link rel="icon" href="img/favicon .ico">
+    <link rel="stylesheet" href="fontawesome-free-6.5.2-web/css/all.css">
+<header>
+    <div class="btn">
+        <button class="switch-theme-button" id="switch-theme-button"><i class="fa-solid fa-moon"></i></button>
+    </div>
+    <ul class="menu-main">
+        <li><a href="index.html" class="current">Главная</a></li>
+        <li><a href="road_map.html">Дорожная карта</a></li>
+        <li><a href="learning.html">Обучающие ресурсы</a></li>
+        <li>
+            <a href="community.html">Сообщество</a>
+            <div class="dropdown-content">
+                <a href="community.html?public=Web" rel="" id="">Web-разработка</a>
+                <a href="community.html?public=GameDeb" id="">Gamedev</a>
+                <a href="community.html?public=Mobile" id="">Мобильная разработка</a>
+            </div>
+        </li>
+        <li><a href="clients_support.html">Поддержкка</a></li>
+    </ul>
+    <div class="button-log" id="showLoginForm"><i class="fa-solid fa-arrow-right-to-bracket"></i></div>
+</header>
+<body>
+    <div class="paralax_header">
+        <div class="content">
+            <h1>Backend Developer Roadmap: Ваш Гид в Мире Серверной Разработки</h1>
+            <p>Backend Developer Roadmap - это незаменимый ресурс для всех, кто стремится стать экспертом в области серверной разработки. Независимо от того, являетесь ли вы начинающим разработчиком, который только начинает свой путь в этой захватывающей области, или опытным профессионалом, желающим расширить свои знания, наша платформа предлагает все необходимое для вашего роста.</p>
+            <a href="learning.html">Перейти</a>
+        </div>
+    </div>
+    <section>
+        <h2>Что Мы Предлагаем:</h2>
+        <ol>
+            <li>Дорожная карта: Мы предоставляем структурированный план развития, который поможет вам шаг за шагом освоить все аспекты серверной разработки. Начиная от основных концепций и языков программирования, заканчивая продвинутыми технологиями и методологиями.</li>
+            <li>Обучающие Ресурсы: Наш сайт предлагает широкий выбор обучающих материалов, включая онлайн-курсы, статьи, видеоуроки и многое другое. Все материалы составлены экспертами в области серверной разработки и охватывают самые актуальные темы.</li>
+            <li>Сообщество и Поддержка: Мы стремимся создать активное и дружелюбное сообщество разработчиков, где вы сможете обмениваться опытом, задавать вопросы и находить вдохновение. Наши форумы, чаты и мероприятия помогут вам расширить свои профессиональные связи и найти новых друзей.</li>
+            <li>Технологические Тренды: Мы следим за последними технологическими трендами в области серверной разработки и регулярно обновляем наш контент, чтобы вы всегда оставались в курсе последних достижений.</li>
+        </ol>
+        <h2>Наша миссия:</h2>
+        <p>Мы стремимся сделать серверную разработку доступной и понятной для всех. Наша цель - вдохновить и поддержать разработчиков в их учебном и профессиональном пути, помогая им стать успешными специалистами в своей области. Присоединяйтесь к Backend Developer Roadmap сегодня и начните свое путешествие к новым высотам в мире программирования!</p>
+    </section>
+    <div class="form-container">
+        <div class="row">
+            <h2>Связаться с нами</h1>
+        </div>
+        <div class="row input-container">
+            <div class="col-xs-12">
+                <div class="styled-input wide">
+                    <input type="text" required />
+                    <label>Имя</label> 
+                </div>
+            </div>
+            <div class="col-md-6 col-sm-12">
+                <div class="styled-input">
+                    <input type="text" required />
+                    <label>Почта</label> 
+                </div>
+            </div>
+            <div class="col-md-6 col-sm-12">
+                <div class="styled-input" style="float:right;">
+                    <input type="text" required/>
+                    <label>Номер телефона</label> 
+                </div>
+            </div>
+            <div class="col-xs-12">
+                <div class="styled-input wide">
+                    <textarea required></textarea>
+                    <label>Поле ввода...</label>
+                </div>
+            </div>
+            <div class="btn-lrg submit-btn">Отправить сообщение</div>
+            </div>
+        </div>
+    </div>
+</body>
+<footer>
+    <ul class="social">
+        <li><a href="#"><i class="fa-brands fa-telegram"></i></a></li>
+        <li><a href="#"><i class="fa-brands fa-whatsapp"></i></a></li>
+        <li><a href="#"><i class="fa-brands fa-instagram"></i></a></li>
+        <li><a href="#"><i class="fa-brands fa-github"></i></a></li>
+    </ul>
+    <ul class="menu">
+        <li><a href="index.html">Главная</a></li>
+        <li><a href="road_map.html">Дорожная карта</a></li>
+        <li><a href="learning.html">Обучающие ресурсы</a></li>
+        <li><a href="community.html">Сообщество</a></li>
+        <li><a href="clients_support.html">Поддержкка</a></li>
+    </ul>
+    <p>©2024 Экзаменационный проект | Петренко Константин ИС-22</p>
+</footer>
+<script src="script.js" ></script>
+</html>
